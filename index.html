@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodyl Mark Serondo</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+</head>
+<body>
+
+    <script src="https://kit.fontawesome.com/09cb3d39a9.js" crossorigin="anonymous"></script>
+
+    <nav>
+
+        <div class="logo">
+            <h1>Rodyl.</h1>
+        </div>
+        
+        <ul id="menuList">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+        </ul>
+
+        <div class="menu-button">
+            <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+        </div>
+    </nav>
+
+    <script>
+        let menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+
+        function toggleMenu() {
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "300px";
+            }
+            else {
+                menuList.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
+
+
+    
+
+<section class="profile" data-aos="zoom-in">
+    <div class="section_pic-container" >
+        <img src="trans.png" alt="">
+    </div>
+
+    <div class="section_text" data-aos="fade-right">
+        <p class="section_text_p1" ><strong>Hello, I'm</strong></p>
+        <h1 class="title" ><strong>Rodyl Mark Serondo</strong></h1>
+        <p class="section_text_p2" ><strong>Front-End Developer</strong></p>
+        <div class="btn-container" >
+            <button class="btn btn-color-2" onclick="window.open('./cv.pdf')">
+                Download CV
+            </button>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/twocik23" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/_lydor/" target="_blank"><i class="fab fa-instagram" ></i></a>
+            <a href="https://www.linkedin.com/in/rodyl-serondo-455481344/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Rodyl23" target="_blank"><i class="fab fa-github" target="_blank"></i></a>
+        </div>
+         
+    </div>
+</section>
+
+<!-- about me -->
+
+<section class="about" id="about">
+
+        
+    <div class="about-container">
+
+        <div class="about-img" data-aos="zoom-in">
+            <img src="trans2.png" alt="">
+        </div>
+
+        <div class="about-text" data-aos="zoom-in-left">
+            <h2>About Me</h2>
+            <p>"Hi! I'm Rodyl, a passionate Web Developer/Designer with a love for creativity and innovation."</p>
+            <p>"I love creating clean, user-friendly designs that bring ideas to life. With a focus on clean, minimalist and responsive web designs, I ensure every project is both visually appealing and functional."</p>
+        </div>
+        
+    </div>
+</section>
+
+    
+</section>
+
+<!-- services -->
+
+<section class="services" id="services">
+    <div class="container2">
+
+        <h1 class="heading2" data-aos="zoom-in-"><strong>Services</strong></h1>
+    
+        <div class="box-container2">
+    
+            <div class="box2" data-aos="zoom-in-left">
+                <img src="cwd.png" alt="">
+                <h3>Custom Website Development</h3>
+                <p>I create unique, fully responsive websites from scratch, ensuring a seamless user experience across all devices.</p>
+            </div>
+    
+            <div class="box2" data-aos="zoom-in-left">
+                <img src="websitemain.png" alt="">
+                <h3>Website Maintenance & Support</h3>
+                <p>Keep your website running smoothly with our ongoing maintenance and security updates.</p>
+            </div>
+    
+            <div class="box2" data-aos="zoom-in-left">
+                <img src="uiux.png" alt="">
+                <h3>Website UI/UX Design</h3>
+                <p>I design user-friendly, visually stunning websites and apps that offer a seamless experience.</p>
+            </div>
+
+            <div class="box2" data-aos="zoom-in-left">
+                <img src="consult.png" alt="">
+                <h3>Web Development Consultation</h3>
+                <p>Insights on building or improving websites.</p>
+            </div>
+
+            <div class="box2" data-aos="zoom-in-left">
+                <img src="photo-editing.png" alt="">
+                <h3>Photo & Video Editing</h3>
+                <p>I make and create clean, professional edits for stunning visuals</p>
+            </div>
+</section>
+
+    <!-- skills -->
+
+    <section class="skills" id="skills">
+        <div class="container1">
+    
+            <h1 class="heading1" data-aos="zoom-in"><strong>Skills</strong></h1>
+        
+            <div class="box-container1">
+        
+                <div class="box1" data-aos="zoom-in-left">
+                    <img src="graphic-design.png" alt="">
+                    <h3>Graphic Designer</h3>
+                    <p>
+                        &#8226; Typography & Layout Design <br>
+                        &#8226; Branding & Logo Design <br>
+                        &#8226; Print & Digital Media Design <br>
+                    </p>
+                </div>
+        
+                <div class="box1" data-aos="zoom-in-left">
+                    <img src="web-coding.png" alt="">
+                    <h3>Front-End Web Developer</h3>
+                    <p>HTML, CSS, JavaScript, React Js.</p>
+                </div>
+        
+                <div class="box1" data-aos="zoom-in-left">
+                    <img src="workstation.png" alt="">
+                    <h3>Computer Hardware & Networking</h3>
+                    <p>
+                        &#8226; PC Assembly & Troubleshooting <br>
+                        &#8226; Hardware Diagnostics & Repair <br>
+                        &#8226; Network Configuration & Security <br>
+                    </p>
+                </div>
+    
+                <div class="box1" data-aos="zoom-in-left">
+                    <img src="cad.png" alt="">
+                    <h3>AutoCAD</h3>
+                    <p>
+                        &#8226; 2D Drafting & Detailing <br>
+                        &#8226; 3D Modeling & Visualization <br>
+                        &#8226; Layer Management & Annotation <br>
+                    </p>
+                </div>
+    
+    </section>
+
+    <!-- contacts again -->
+
+    <section class="contacts" id="contacts">
+        <div class="contact-container" data-aos="zoom-in-left">
+            <h2 >Contact Me</h2>
+            <p>Have a project or just want to say hi? Let's connect!</p>
+            
+            <form> 
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+
+<!-- footer/contacts -->
+
+<footer id="contacts">
+
+    <div class="social"> 
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </div>
+    
+    <p class="copyright">
+        Rodyl Mark Serondo &copy; 2025 
+    </p>
+</footer>
+</section>
+
+<!-- animated background -->
+
+<div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+ </div>
+
+
+</body> 
+</html>
